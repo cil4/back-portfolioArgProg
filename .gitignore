@@ -8,6 +8,10 @@ target/
 /src/main/resources/application.properties
 /bin/src/main/resources/application.properties
 
+### ctr  ###
+/src/main/java/com/example/portfolioapi/controllers/PersonaController.java
+/bin/src/main/java/com/example/portfolioapi/controllers/PersonaController.java
+
 ### STS ###
 .apt_generated
 .classpath
