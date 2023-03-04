@@ -1,5 +1,6 @@
-FROM amazoncorretto:11-alpine-jdk
+FROM openjdk:11
 
-COPY target/SpringBoot-0.0.1-SNAPSHOT.jar app.jar
 
-ENTRYPOINT  ["java", "-jar", "/app.jar"]
+ADD target/portfolioapi-0.0.1-SNAPSHOT.jar portfolioapi-0.0.1-SNAPSHOT.jar
+
+ENTRYPOINT  ["java", "-jar", "/portfolioapi-0.0.1-SNAPSHOT.jar"]
