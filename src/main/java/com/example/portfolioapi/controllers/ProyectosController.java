@@ -22,7 +22,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
 
-@CrossOrigin(origins = "https://portfolio-mcg.web.app")
+@CrossOrigin(origins = "https://portfolio-frontend-mg.web.app")
 @RestController
 @RequestMapping("/api/proyectos")
 public class ProyectosController {

@@ -22,7 +22,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
-@CrossOrigin(origins = "https://portfolio-mcg.web.app")
+@CrossOrigin(origins = "https://portfolio-frontend-mg.web.app")
 @RestController
 @RequestMapping("/api/experiencia")
 public class ExperienciaController {
